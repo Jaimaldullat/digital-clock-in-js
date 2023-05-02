@@ -1,0 +1,27 @@
+/*  Import Menlo font family    */
+@import url('https://fonts.cdnfonts.com/css/menlo');
+
+body {
+    font-size: 12px;
+    font-family: Menlo, sans-serif;
+    background: #F2CD60;
+    line-height: 1;
+}
+
+.clock-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* vh: Viewport Height  - the height of entire visible window/page */
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    font-size: 150px;
+    font-weight: bold;
+    border: 5px solid #333;
+    border-radius: 15px;
+    padding: 25px;
+    color: #333;
+}
